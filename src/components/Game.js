@@ -22,7 +22,9 @@ const Game = () => {
         setHistory ([...historyPoint, squares]);
         setStepNumber(historyPoint.length);
         setXisNext(!xIsNext);
-    
+      
+         
+              
 };
 
 const jumpTo = (step) => {
